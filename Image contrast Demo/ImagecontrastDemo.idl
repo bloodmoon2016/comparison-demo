@@ -1,0 +1,29 @@
+// ImagecontrastDemo.idl : Image contrast Demo.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(ImagecontrastDemo.tlb)。
+
+[ uuid(6928E3B3-0691-4881-8282-721CCD577204), version(1.0) ]
+library ImagecontrastDemo
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CImagecontrastDemoDoc 的主调度接口
+	
+	[ uuid(072139EB-DCE9-49BE-A510-D748DA0081F5) ]
+	dispinterface IImagecontrastDemo
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CImagecontrastDemoDoc 的类信息
+	
+	[ uuid(CD9729C6-53E9-459D-A876-96ED23ADD7CE) ]
+	coclass ImagecontrastDemo
+	{
+		[default] dispinterface IImagecontrastDemo;
+	};
+};
